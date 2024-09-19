@@ -425,29 +425,40 @@
 
 # --------------------------------------------------------------------------------------------------------------------
 
-def minDaysWork(n, day1, day2):
-    ans = 0
+# def minDaysWork(n, day1, day2):
+#     ans = 0
  
-    # List to store the pair of day1(i) and day2(i)
-    combined = [[] for i in range(n)]
+#     # List to store the pair of day1(i) and day2(i)
+#     combined = [[] for i in range(n)]
  
-    for i in range(len(day1)):
-        combined[i] = [day1[i], day2[i]]
+#     for i in range(len(day1)):
+#         combined[i] = [day1[i], day2[i]]
  
-    # Sort the array
-    combined.sort()
-    for i in range(len(day1)):
-        if (combined[i][1] >= ans):
-            ans = combined[i][1]
-        else:
-            ans = combined[i][0]
+#     # Sort the array
+#     combined.sort()
+#     for i in range(len(day1)):
+#         if (combined[i][1] >= ans):
+#             ans = combined[i][1]
+#         else:
+#             ans = combined[i][0]
  
-    return ans
+#     return ans
  
  
-# Driver Code
-# Input taken
-N = 3
-D1 = [6, 5, 4]
-D2 = [1, 2, 3]
-print(minDaysWork(N, D1, D2))
+# # Driver Code
+# # Input taken
+# N = 3
+# D1 = [6, 5, 4]
+# D2 = [1, 2, 3]
+# print(minDaysWork(N, D1, D2))
+
+
+
+
+
+
+
+
+
+
+

@@ -260,4 +260,37 @@
 #         self.next=None
         
 # a=node(1) 
-# print(a.data)
+# print(a.data
+
+
+
+# # --------------------------------------------------------------------------
+# Given an unsorted array arr of size n that contains only non negative integers, find a sub-array (continuous elements) that has sum equal to s. You mainly need to return the left and right indexes(1-based indexing) of that subarray.
+
+# In case of multiple subarrays, return the subarray indexes which come first on moving from left to right. If no such subarray exists return an array consisting of element -1.
+
+
+
+# class mm:
+#     def m(self, arr, n):
+#         sum = 0
+#         start = 0
+        
+#         for i in range(len(arr)):
+#             sum += arr[i]
+            
+#             while sum > n and start < i:
+#                 sum -= arr[start]
+#                 start += 1
+            
+#             if sum == n:
+#                 return [start, i]  # 1-based indexing
+        
+#         return [-1]
+
+# # Example usage
+# arra = [15, 2, 4, 8, 9, 5, 10, 23]
+# s = 23   
+# obj = mm()
+# result = obj.m(arra, s)
+# print(result)  # Output: [2, 5]
