@@ -181,3 +181,38 @@
 #   print(r,"its  not a prime number")
 # else:
 #   print(r,"is  a prime number")
+
+# -----------------------------------------------------------------------------------
+
+# Given an expression string x. Examine whether the pairs and the orders of {,},(,),[,] are correct in exp.
+# For example, the function should return 'true' for exp = [()]{}{[()()]()} and 'false' for exp = [(]).
+
+# Note: The driver code prints "balanced" if function return true, otherwise it prints "not balanced".
+
+# def ma(exp):
+#     stack=[]
+#     bra={')':'(','{':'{','[':'[','<':'<'}
+#     for char in exp:
+#         if char in bra.values():
+#             stack.append(char)
+            
+#         elif char in bra.keys():
+#             if stack ==[] or bra[char] != stack.pop ():
+#                 return False
+            
+#         else :
+           
+#            continue
+    
+       
+#     return stack ==[]
+    
+
+# exp ="}"
+# if ma(exp):
+#     print("balanced")
+# else:
+#     print("not balanced")
+        
+# --------------------------------------------------------------------------     
+        

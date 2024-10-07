@@ -22,7 +22,9 @@ except Error as e:
 def data():
     if 'my_cursor' in globals(): 
         while True:
-            date = datetime.date.today().strftime('%Y-%m-%d')
+
+            now = datetime.datetime.now()
+            date = now.strftime('%Y-%m-%d %H:%M:%S')
             location_id = random.randint(111, 201)
             company = random.randint(11, 30)
             issue_id = random.randint(111, 130)
@@ -58,7 +60,7 @@ def data():
 
             print(date, location_id, company, issue_id, csr_id, response_time, call_time, status, rating)
             print("----------------------------")
-            time.sleep(5)
+            time.sleep(2)
     else:
         print("Cursor is not defined. Database connection may have failed.")
 
