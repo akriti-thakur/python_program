@@ -96,7 +96,49 @@
 
 # -------------------------------------------------------------------------
 
-# class stack:
-#     def __init__(self):
-#         self.q = Queue()
 
+# Python Program to Implement Stack using Queue
+from queue import Queue
+
+class stack:
+    def __init__(self):
+        self.q= Queue()
+        
+    def push(self,data):
+         self.size= self.q.qsize()
+         self.q.put(data)
+         for i in range(self.size):
+             self.q.put(self.q.get())
+             
+             
+    def pop(self):
+        if self.q.empty():
+            return None
+        else:
+            return self.q.get()
+        
+    def top(self):
+        if self.q.empty():
+            return None
+        
+        top_item= self.q.get()
+        self.q.put(top_item)
+        
+        for i in range(self.size - 1):
+            self.q.put(self.q.get())
+            
+        return top_item
+    
+    def is_empty(self):
+        return self.q.empty()
+    
+    
+s=stack()
+
+s.push(1)
+s.push(2)
+s.push(3)
+# print(s.top())
+print(s.pop())
+print(s.pop())
+print(s.pop())
