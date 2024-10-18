@@ -98,47 +98,108 @@
 
 
 # Python Program to Implement Stack using Queue
-from queue import Queue
+# from queue import Queue
 
-class stack:
+# class stack:
+#     def __init__(self):
+#         self.q= Queue()
+        
+#     def push(self,data):
+#          self.size= self.q.qsize()
+#          self.q.put(data)
+#          for i in range(self.size):
+#              self.q.put(self.q.get())
+             
+             
+#     def pop(self):
+#         if self.q.empty():
+#             return None
+#         else:
+#             return self.q.get()
+        
+#     def top(self):
+#         if self.q.empty():
+#             return None
+        
+#         top_item= self.q.get()
+#         self.q.put(top_item)
+        
+#         for i in range(self.size - 1):
+#             self.q.put(self.q.get())
+            
+#         return top_item
+    
+#     def is_empty(self):
+#         return self.q.empty()
+    
+    
+# s=stack()
+
+# s.push(1)
+# s.push(2)
+# s.push(3)
+# # print(s.top())
+# print(s.pop())
+# print(s.pop())
+# print(s.pop())
+
+
+# with out using queue
+
+class stack :
     def __init__(self):
-        self.q= Queue()
+        self.d=[]
         
     def push(self,data):
-         self.size= self.q.qsize()
-         self.q.put(data)
-         for i in range(self.size):
-             self.q.put(self.q.get())
-             
-             
-    def pop(self):
-        if self.q.empty():
-            return None
-        else:
-            return self.q.get()
-        
-    def top(self):
-        if self.q.empty():
-            return None
-        
-        top_item= self.q.get()
-        self.q.put(top_item)
-        
-        for i in range(self.size - 1):
-            self.q.put(self.q.get())
-            
-        return top_item
-    
-    def is_empty(self):
-        return self.q.empty()
-    
-    
-s=stack()
+        self.d.sppend(data)
+        for _ in range (len(self.d)):
+            self.d.append(self.d.pop())        
 
-s.push(1)
-s.push(2)
-s.push(3)
-# print(s.top())
-print(s.pop())
-print(s.pop())
-print(s.pop())
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+#  stack using list
+# class stack:
+#     def __init__(self):
+#         self.stack=[]
+        
+#     def push(self,data):
+#         self.stack.append(data)
+        
+#     def pop(self):
+#         if len(self.stack)==0:
+#             print("its empty")
+#         else:
+#             self.stack.pop()
+            
+#     def top(self):
+#         if len(self.stack)==0:
+#             print("its empty")
+#         else:
+#             return self.stack[-1]
+        
+#     def is_empty(self):
+#         return len(self.stack)==0
+    
+#     def size(self):
+#         return len(self.stack)
+    
+    
+# a= stack()
+# a.push(1)
+# a.push(2)
+# a.push(3)
+# print(a.top())
+# a.pop()
+
+# a.pop()
+
+# a.pop()
+# print(a.top())
+# print(a.is_empty())
+
+
+
