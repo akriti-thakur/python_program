@@ -144,23 +144,14 @@
 # print(s.pop())
 
 
-# with out using queue
-
-class stack :
-    def __init__(self):
-        self.d=[]
-        
-    def push(self,data):
-        self.d.sppend(data)
-        for _ in range (len(self.d)):
-            self.d.append(self.d.pop())        
 
 
 
 
 
 
-------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------
+
 #  stack using list
 # class stack:
 #     def __init__(self):
@@ -201,5 +192,71 @@ class stack :
 # print(a.top())
 # print(a.is_empty())
 
+# -------------------------------------------------------------------
+# implement stack by using two queue
+
+# from queue import Queue
+
+# class stack:
+#     def __init__(self):
+#         self.one= Queue()
+#         self.two= Queue()
+        
+        
+#     def push(self,data):
+        
+#         self.two.put(data)
+#         while not self.one.empty():
+#             self.two.put(self.one.get())
+            
+#         self.two,self.one=self.one,self.two
+#     def pop(self):
+#         if self.one.empty():
+#             return "Stack is empty"
+#         return self.one.get()
+
+#     def top(self):
+#         if self.one.empty():
+#             return "Stack is empty"
+#         return self.one.queue[0]
+
+#     def is_empty(self):
+#         return self.one.empty()
+
+#     def size(self):
+#         return self.one.qsize()
 
 
+# s = stack()
+# s.push(1)
+# s.push(2)
+# s.push(3)
+# print(s.top())  # Output: 3
+# print(s.pop())  # Output: 3
+# print(s.top())  # Output: 2
+# print(s.pop())  # Output: 2
+# print(s.is_empty())  # Output: False
+# print(s.pop())  # Output: 1
+# print
+
+# ------------------------------------------------------------------------
+
+# How to Reverse a String using Stack
+
+# def reverse(input):
+#     stack=[]
+#     for _ in input:
+#         stack.append(_)
+        
+#     reverse=""
+    
+#     while stack:
+#         reverse += stack.pop()
+        
+#     return reverse
+
+
+# st= "Hello, World!"
+# s=reverse(st)
+# print(s)
+# -----------------------------------------------------------------------------------

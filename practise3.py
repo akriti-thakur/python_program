@@ -48,22 +48,4 @@
 # Auxiliary Space: O(n*n) where n is the number of elements in the list “test_list”.        
         
 # print(f"the result is {res}")
-# -------------------------or -------------------------
 
-# initializing list
-test_list = ["Gfg is best", "Gfg is for geeks", "I love G4G"]
- 
-# printing original list
-print("The original list is : " + str(test_list))
- 
-# initializing K
-K = "g"
- 
-res = []
-for i in test_list:
-    words = i.split()
-    startWords = list(filter(lambda x: x[0].lower() == K.lower(), words))
-    res.extend(startWords)
- 
-# printing result
-print("The filtered elements : " + str(res))
