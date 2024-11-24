@@ -384,3 +384,144 @@
 
 
 # print(f"Minimum steps to turn on all bulbs: {largest_perfect_square}")
+# Function to demonstrate printing pattern of alphabets
+
+
+
+
+# def first_unique_char(s):
+#     # Dictionary to store the frequency of each character
+#     char_count = {}
+    
+#     # Count the frequency of each character
+#     for char in s:
+#         char_count[char] = char_count.count()
+    
+#     # Find the index of the first unique character
+#     for index, char in enumerate(s):
+#         if char_count[char] == 1:
+#             return index
+    
+#     # If there are no unique characters
+#     return -1
+
+# # Example usage
+# s = "swiss"
+# print(f"The index of the first unique character is: {first_unique_char(s)}")
+# ---------------------------------------------------------------------------------------------------
+
+
+# # Python3 code to validate a password
+
+# # A utility function to check
+# # whether a password is valid or not
+# def isValid(password):
+
+# 	# for checking if password length
+# 	# is between 8 and 15
+# 	if (len(password) < 8 or len(password) > 15):
+# 		return False
+
+# 	# to check space
+# 	if (" " in password):
+# 		return False
+
+# 	if (True):
+# 		count = 0
+
+# 		# check digits from 0 to 9
+# 		arr = ['0', '1', '2', '3', 
+# 		'4', '5', '6', '7', '8', '9']
+
+# 		for i in password:
+# 			if i in arr:
+# 				count = 1
+# 				break
+
+# 		if count == 0:
+# 			return False
+
+# 	# for special characters
+# 	if True:
+# 		count = 0
+
+# 		arr = ['@', '#','!','~','$','%','^',
+# 				'&','*','(',',','-','+','/',
+# 				':','.',',','<','>','?','|']
+
+# 		for i in password:
+# 			if i in arr:
+# 				count = 1
+# 				break
+# 		if count == 0:
+# 			return False
+
+# 	if True:
+# 		count = 0
+
+# 		# checking capital letters
+# 		for i in range(65, 91):
+
+# 			if chr(i) in password:
+# 				count = 1
+
+# 		if (count == 0):
+# 			return False
+
+# 	if (True):
+# 		count = 0
+
+# 		# checking small letters
+# 		for i in range(97, 123):
+
+# 			if chr(i) in password:
+# 				count = 1
+
+# 		if (count == 0):
+# 			return False
+
+# 	# if all conditions fails
+# 	return True
+
+# # Driver code
+# password1 = "GeeksForGeeks"
+
+# if (isValid([i for i in password1])):
+# 	print("Valid Password")
+# else:
+# 	print("Invalid Password!!!")
+
+# password2 = "Geek$ForGeeks7"
+# if (isValid([i for i in password2])):
+# 	print("Valid Password")
+# else:
+# 	print("Invalid Password!!!")
+
+# --------------------------------------------------------------------------------
+# def  printnum(n,m):
+#    if  n== 0:
+#        return m
+#    return printnum(n-1,n+m)
+
+
+# s=printnum(4,5)
+# print(s)
+
+# -------------------------------------------------------------------------
+
+# def fun(n):
+#     if n > 1:
+#         fun(n - 1)
+#     for i in range(n):
+#         print(" * ", end='')
+
+# # Example call
+# if __name__ == "__main__":
+#     fun(4)
+
+# import required modules
+
+
+# ---------------------------------------------------
+
+
