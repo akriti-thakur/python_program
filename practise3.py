@@ -50,3 +50,19 @@
 # print(f"the result is {res}")
 # Taking multiple integer inputs from the user
 
+# -----------------------------------------
+import threading
+def fun1():
+    for _ in range(100):
+        print("one")
+ 
+ 
+def fun2():
+    for _ in range(100):
+        print("two")       
+        
+t1=threading.Thread(target=fun1)
+t2=threading.Thread(target=fun2)
+
+t1.start()
+t2.start()
