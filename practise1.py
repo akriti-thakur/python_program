@@ -2,8 +2,7 @@
 # from random import randint
 # from collections import Counter
 # import pandas as pd
-# import matplotlib.pyplot as py
-
+# import matplotlib.pyplot as py  
 
 # def main():
 #     fu= lambda x:'tails' if x else 'head'
@@ -88,15 +87,15 @@
 # import random
 # import matplotlib.pyplot as plt
 
-# Function to simulate a coin toss
+# # Function to simulate a coin toss
 # def toss_coin():
 #     return 'Head' if random.randint(0, 1) == 0 else 'Tail'
 
-# Simulate 1000 tosses
+# # Simulate 1000 tosses
 # tosses = [toss_coin() for _ in range(1000)]
 # print(tosses)
 
-# Create a DataFrame
+# # Create a DataFrame
 # df = pd.DataFrame(tosses, columns=['Outcome'])
 
 # # Get the distribution of outcomes
