@@ -51,18 +51,18 @@
 # Taking multiple integer inputs from the user
 
 # -----------------------------------------
-import threading
-def fun1():
-    for _ in range(100):
-        print("one")
+# import threading
+# def fun1():
+#     for _ in range(100):
+#         print("one")
  
  
-def fun2():
-    for _ in range(100):
-        print("two")       
+# def fun2():
+#     for _ in range(100):
+#         print("two")       
         
-t1=threading.Thread(target=fun1)
-t2=threading.Thread(target=fun2)
+# t1=threading.Thread(target=fun1)
+# t2=threading.Thread(target=fun2)
 
-t1.start()
-t2.start()
+# t1.start()
+# t2.start()
