@@ -66,3 +66,23 @@
 
 # t1.start()
 # t2.start()
+
+# --------------------------------------------------------------------------
+
+num=0
+
+if num %2==0:
+    if num==0:
+        print("your  number is zero ")
+        
+    else:
+        print("even")
+        
+        
+else:
+    print("odd")
+
+        
+        
+        
+    
