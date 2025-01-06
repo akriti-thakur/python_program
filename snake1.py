@@ -137,8 +137,6 @@ def game():
 
     pygame.quit()
     quit()
-
-
-game()
+game() 
 
 
