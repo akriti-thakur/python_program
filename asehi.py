@@ -127,15 +127,15 @@
 
 
 # def lar(a,n):
-#     first_largest = 0
+    # first_largest = 0
 #     second_largest = -1
     
     
-#     for i in range(n):
-#        if a[i]>a[first_largest]:
-#           second_largest =first_largest
+    # for i in range(n):
+    #    if a[i]>a[first_largest]:
+    #       second_largest =first_largest
            
-#           first_largest=i
+    #       first_largest=i
           
           
 #        elif a[i]<a[first_largest]:
