@@ -15,7 +15,7 @@
 #     colle=colle.value_counts()
 #     colle.plot(kind='bar')
 #     py.show()
-  
+         
      
 # if __name__=="__main__":
 #     main()
