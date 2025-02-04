@@ -1,22 +1,3 @@
-# class Solution:
-#     # @param A : list of integers
-#     # @return an integer
-#     global n 
-#     def solve(self, A,a):
-#         n=len(a)
-#         for i in range(n):
-#          A.append(a)
-#          A.sort()
-         
-#         print("the 2nd highest elemet is ",A[n-1])  
-       
-# objec=Solution()
-# A=[]
-# a=input("enter the elements:\n")
-
-    
-
-# objec.solve(A,a)
 
 
 
