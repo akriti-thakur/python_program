@@ -277,16 +277,17 @@
 # print(result)  # Output: [2, 5]
 # ------------------------------------------------------------------------------------------------
 
+a= float(input("enter any number u want to add"))
+b= int(input("enter any number u want to add"))
+
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(a//b)
+print(a**b)
 
 
-
-a="10.98"
-# print(type(a))
-# b=float(a)
-# print(type(b))
-
-a= int(a)
-print(a)
 
 
 
