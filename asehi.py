@@ -277,20 +277,43 @@
 # print(result)  # Output: [2, 5]
 # ------------------------------------------------------------------------------------------------
 
-a= float(input("enter any number u want to add"))
-b= int(input("enter any number u want to add"))
+# a= float(input("enter any number u want to add"))
+# b= int(input("enter any number u want to add"))
 
-print(a+b)
-print(a-b)
-print(a/b)
-print(a*b)
-print(a//b)
-print(a**b)
-
+# print(a+b)
+# print(a/b)
+# print(a*b)
+# print(a//b)
+# print(a**b)
 
 
+# print(a-b)
+# a= float(input("enter any number u want to add"))
 
+# b= input("enter any number u want to add")
+# b=int(b)
+# print(type(a))
+# print(type(b))
+# print(a+b
+# # user input even number !=
+# a=int(input("enter any number"))
 
+# if a%2==0:
+#     if a==0:
+#         print("your input is zero")
+        
+#     else:
+#         print("even")
+    
+# else:
+#     print("odd")
+    
+    
+    
+    
+    
+    
+    
 
 
 
