@@ -287,24 +287,22 @@
 # print(a**b)
 
 
-# print(a-b)
+# a= input("enter any number u want to add")
+
 # a= float(input("enter any number u want to add"))
 
 # b= input("enter any number u want to add")
 # b=int(b)
 # print(type(a))
 # print(type(b))
-# print(a+b
+# print(a+b)
 # # user input even number !=
 # a=int(input("enter any number"))
 
-# if a%2==0:
-#     if a==0:
-#         print("your input is zero")
-        
-#     else:
-#         print("even")
-    
+# if a%2==0: 
+#    print("even")
+   
+   
 # else:
 #     print("odd")
     
@@ -314,6 +312,106 @@
     
     
     
+# number = input ( "Enter a number:" )
+# number = float(number)
+# if number < 10 :
+#      print ( "Your number is less than 10" )
+    
+# elif number > 10 :
+#      print ( "Your number is greater than 10" )
+# else :
+#      print ( "Your number is 10" )
+# ----------------------------
+# a = int(input("enter any year"))
+# if a%4==0 and a%100 != 0:
+#     print("its a leap year ")
+    
+    
+# else:
+#     print("not a leap year")
+# --------------------------------------------------------------
+
+# num=11
+# while num<=10:
+#     num=9
+#     num= num+1
+#     num=10+1
+#     num=11
+
+#     print("hello")
+# -----------------
+# num=[10,20,30,40,"hello",90.89]
+# for i in num:
+#     print(i)
+# print the sum of first 10 even number 
+# -------------------------------
+# while True:
+#     a=int(input("enter"))
+#     if a%2==0:
+#         print("even")
+        
+#     else:
+#         print("odd")
+
+
+# ---------------------------------------------------
+
+# count = 0
+# sum_even = 0
+# sum_odd = 0
+
+# while count <= 20:
+#     if count % 2 == 0: 
+#         sum_even += count 
+
+
+        
+           
+#     else: 
+#         sum_odd += count
+            
+#     count += 1 
+
+# print("Sum of even numbers:", sum_even)
+# print("Sum of odd numbers:", sum_odd)
+
+
+# Python Program to Split Even and Odd Elements into Two Lists
+# Python Program to Swap the First and Last Element in a List 
+
+# number = 0
+# while number < 10 :
+#  number += 1
+#  number =4+1
+
+#  if number == 5 :
+#       break
+#  print (number)
+
+# -----------------------------------------
+# list1=[1,5,6,1,78,90,2,3,4]
+# uni_list=[]
+# for i in list1:
+#      if i not in uni_list:
+#          uni_list.append(i)
+         
+         
+# print(uni_list)
+# Python Program to Return the Length of the Longest Word from the List of Word
+# lis1=["akriti","akriti","akriti","akriti","akriti"]
+# max_length=0
+# for i in lis1:
+#     count=0
+#     for j in i: 
+    
+#         count +=1
+#     if count>=max_length: 
+#        max_length= count
+       
+       
+        
+# print(max_length)
+
 
 
 
