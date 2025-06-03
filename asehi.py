@@ -375,7 +375,6 @@
 # print("Sum of even numbers:", sum_even)
 # print("Sum of odd numbers:", sum_odd)
 
-
 # Python Program to Split Even and Odd Elements into Two Lists
 # Python Program to Swap the First and Last Element in a List 
 
@@ -425,3 +424,5 @@
 
 # odd=[]
 # even=[]
+
+
