@@ -427,3 +427,11 @@
 #         plt.show()
 
 
+import os
+
+a=""
+if os.path.exists(a):
+    print("file exits ")
+    
+else:
+    print("file does't")

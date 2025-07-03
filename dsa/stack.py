@@ -8,7 +8,7 @@
 
 # stack.pop()
 # stack.pop()
-# stack.pop()
+
 # print(stack)
 
 # # ---------------------------------------------------
@@ -25,7 +25,7 @@
 
 # print(stack.pop())
 # print(stack.pop())
-# print(stack.pop())
+
 
 
 # print("stack after poping the elemnt")
@@ -41,6 +41,9 @@
 # stack.put(1)
 # stack.put(2)
 # stack.put(3)
+# stack.put(4)
+
+
 
 # print("full :", stack.full())
 
@@ -48,6 +51,8 @@
 # print(stack.get())
 # print(stack.get())
 # print(stack.get())
+# print(stack.get())
+
 
 
 
@@ -76,7 +81,7 @@
 #     print('push <value>')
 #     print('pop')
 #     print('quit')
-#     do = input("what would you like to do").split()
+#     do = input("what would you like to do").split()  
     
 #     operation =do[0].strip().lower()
 #     if operation == 'push':
@@ -260,3 +265,7 @@
 # s=reverse(st)
 # print(s)
 # -----------------------------------------------------------------------------------
+
+
+
+
