@@ -108,15 +108,15 @@
 
 
 # def lar(a,n):
-    # first_largest = 0
+#     first_largest = 0
 #     second_largest = -1
     
     
-    # for i in range(n):
-    #    if a[i]>a[first_largest]:
-    #       second_largest =first_largest
+#     for i in range(n):
+#        if a[i]>a[first_largest]:
+#           second_largest =first_largest
            
-    #       first_largest=i
+#           first_largest=i
           
           
 #        elif a[i]<a[first_largest]:
@@ -142,40 +142,40 @@
 #     main()
 
 
-# import numpy as np
+import numpy as np
 
-# def ma(mat):
+def ma(mat):
     
-#     a=np.array(mat)
-#     n,m= a.shape
+    a=np.array(mat)
+    n,m= a.shape
 
-#     if n!=m:
-#         print("matrix should be square")
-#     else:
-#         for i in range(n):
-#             for j in range(m):
-#                 if i == j:
-#                     if a[i, j] != 1:
-#                         return False
-#                 else:
-#                     if a[i, j] != 0:
-#                         return False
+    if n!=m:
+        print("matrix should be square")
+    else:
+        for i in range(n):
+            for j in range(m):
+                if i == j:
+                    if a[i, j] != 1:
+                        return False
+                else:
+                    if a[i, j] != 0:
+                        return False
                        
-#     return True
+    return True
 
 
-# x=[
-#          [1, 0, 0],
-#     [0, 1, 0],
-#     [0, 0, 1]
-#      ]
-# result=ma(x)
+x=[
+         [1, 0, 0],
+    [0, 1, 0],
+    [0, 0, 1]
+     ]
+result=ma(x)
 
-# if result:
-#     print("true")
+if result:
+    print("true")
     
-# else:
-#     print("false")
+else:
+    print("false")
 
 # def get_index(tup,elem):
 #     try:
