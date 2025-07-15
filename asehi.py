@@ -142,40 +142,40 @@
 #     main()
 
 
-import numpy as np
+# import numpy as np
 
-def ma(mat):
+# def ma(mat):
     
-    a=np.array(mat)
-    n,m= a.shape
+#     a=np.array(mat)
+#     n,m= a.shape
 
-    if n!=m:
-        print("matrix should be square")
-    else:
-        for i in range(n):
-            for j in range(m):
-                if i == j:
-                    if a[i, j] != 1:
-                        return False
-                else:
-                    if a[i, j] != 0:
-                        return False
+#     if n!=m:
+#         print("matrix should be square747482")
+#     else:
+#         for i in range(n):
+#             for j in range(m):
+#                 if i == j:
+#                     if a[i, j] != 1:
+#                         return False
+#                 else:
+#                     if a[i, j] != 0:
+#                         return False
                        
-    return True
+#     return True
 
 
-x=[
-         [1, 0, 0],
-    [0, 1, 0],
-    [0, 0, 1]
-     ]
-result=ma(x)
+# x=[
+#          [1, 0, 0],
+#     [0, 1, 0],
+#     [0, 0, 1]
+#      ]
+# result=ma(x)
 
-if result:
-    print("true")
+# if result:
+#     print("true")
     
-else:
-    print("false")
+# else:
+#     print("false")
 
 # def get_index(tup,elem):
 #     try:
@@ -424,18 +424,24 @@ else:
 
 # odd=[]
 # even=[]
-number = 0
-while number < 10 :
-   print(number)
-   number += 1
-   if number == 5 :
-    print ("the number is 5")
-    continue
+# number = 0
+# while number < 10 :
+#    print(number)
+#    number += 1
+#    if number == 5 :
+#     print ("the number is 5")
+#     continue
 
 
 
 
 
 
+
+
+
+a="10"
+b="10"
+print(a+b)
 
 

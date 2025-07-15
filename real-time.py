@@ -72,3 +72,7 @@ if __name__ == "__main__":
         my_cursor.close()
     if 'con' in globals() and con.is_connected():
         con.close()
+
+
+
+
